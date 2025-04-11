@@ -38,4 +38,17 @@ The system uses:
 ### Requirements
 Install necessary libraries:
 ```bash
+
 pip install pandas numpy scikit-learn
+
+## Feedback
+
+After seeing their mentor recommendations, the user can tell us if the suggestions were helpful or not (like a thumbs up/down).
+
+We can collect that feedback and slowly learn which mentors work well with which kinds of students.
+
+If some mentors are always rated low for certain profiles, we can stop showing them to similar users.
+
+Later, we can even use this feedback to train the system to make smarter suggestions without us having to manually adjust anything.
+
+So basically, the more students use it and share what worked for them, the more accurate and useful this mentor recommender will become!
