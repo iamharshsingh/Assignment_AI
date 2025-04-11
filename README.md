@@ -32,16 +32,8 @@ The system uses:
    - College & Style: `One-Hot Encoding`
 3. KNN with cosine similarity compares the aspirant's vector to mentor profiles.
 4. Outputs top 3 most similar mentors.
-
-## ▶️ How to Run
-
-### Requirements
-Install necessary libraries:
-```bash
-
-pip install pandas numpy scikit-learn
-
-## Feedback
+   
+# Feedback
 
 After seeing their mentor recommendations, the user can tell us if the suggestions were helpful or not (like a thumbs up/down).
 
@@ -52,3 +44,13 @@ If some mentors are always rated low for certain profiles, we can stop showing t
 Later, we can even use this feedback to train the system to make smarter suggestions without us having to manually adjust anything.
 
 So basically, the more students use it and share what worked for them, the more accurate and useful this mentor recommender will become!
+
+
+##  How to Run
+
+## Requirements
+Install necessary libraries:
+```bash
+
+pip install pandas numpy scikit-learn
+
